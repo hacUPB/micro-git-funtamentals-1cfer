@@ -7,9 +7,11 @@ El proyecto es el propuesto en la evaluación. Contiene carpetas, archivos, los 
 
 Para clonar y ejecutar el proyecto se debe ingresar desde el link que se encuentra en el apartado de Evaluación, se acepta la asignación con el ID correspondiente del estudiante y se sincroniza con el repositorio local con los comandos.
 
-[Repositorio Local](docs/repositorio_local.md)
+# Contenido
 
-[Repositorio Remoto](docs/repositorio_remoto.md)
+• [Repositorio Local](docs/repositorio_local.md)
 
-[Uso Consola](docs/uso_consola.md)
+• [Repositorio Remoto](docs/repositorio_remoto.md)
+
+• [Uso Consola](docs/uso_consola.md)
 
