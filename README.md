@@ -9,9 +9,9 @@ Para clonar y ejecutar el proyecto se debe ingresar desde el link que se encuent
 
 # Contenido
 
-• [Repositorio Local](docs/repositorio_local.md)
+• [Repositorio Local](docs/repositorio_local.md) Explica cómo crear un repositorio local con comandos de Git.
 
-• [Repositorio Remoto](docs/repositorio_remoto.md)
+• [Repositorio Remoto](docs/repositorio_remoto.md) Detalla el proceso para crear un repositorio remoto en GitHub y sincronizarlo con el repositorio local.
 
-• [Uso Consola](docs/uso_consola.md)
+• [Uso Consola](docs/uso_consola.md) Describe los conceptos aprendidos sobre cómo usar la consola para navegar y crear directorios y archivos.
 
