@@ -21,7 +21,9 @@ Ingresamos a la carpeta que se acaba de crear con:
 cd repositorios
 ```
 
-Aquí se crearán todos los repositorios que se requiera. No se puede crear uno dentro de otro.
+Aquí se crearán todos los repositorios que se requiera.
+
+ > No se puede crear un repositorio dentro de otro.
 
 Para crear el primer repositorio, acceder a él e inicializarlo, se usan los siguientes comandos:
 
@@ -44,7 +46,7 @@ Este comando nos da información sobre los cambios en nuestro respositorio hasta
 
 Si no se ha realizado ningún cambio, aparecerá que no hay nada a lo qué hacer `commit`.
 
-### Que es un commit?
+## Que es un commit?
 Un commit es una acción en los sistemas de control de versiones que guarda los cambios hechos en un proyecto. Permite guardar el estado del código en un momento específico y facilita ver el historial de cambios. Cada commit tiene una breve descripción de lo que se modificó.
 
 Cuando se quiera guardar los cambios importantes de forma segura y que mas adelante se puedan deshacer o recuperar sin problemas de que se pierdan o se dañen, se debe agregar los archivos modificados o eliminados al área de preparación con el comando `add`, por ejemplo:
