@@ -5,7 +5,12 @@ Id: 491245
 
 El proyecto es el propuesto en la evaluación. Contiene carpetas, archivos, los cuales se verifica tener un respaldo siempre en el directoio remoto. También se comprende el uso de un archivo .gitignore.
 
-Para clonar y ejecutar el proyecto se debe ingresar desde el link que se encuentra en el apartado de Evaluación, se acepta la asignación con el ID correspondiente del estudiante y se sincroniza con el repositorio local con los comandos.
+Para clonar y ejecutar el proyecto se debe ingresar desde el link que se encuentra en el apartado de Evaluación, se acepta la asignación con el ID correspondiente del estudiante. Una vez se hayan completado estos pasos, desde la consola, se puede ejecutar el comando:
+
+``` bash
+git clone https://github.com/hacUPB/micro-git-funtamentals-1cfer.git
+```
+Esto hace que se desargue el repositorio en nuestro dispositivo y poder empezarlo a editar localmente. Para ello se accede a la carpeta descargada (que generalmente se encuentra en `Documents`) usando comandos y ya estará listo.
 
 # Contenido
 

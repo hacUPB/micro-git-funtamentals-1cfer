@@ -42,7 +42,34 @@ git status
 
 Este comando nos da información sobre los cambios en nuestro respositorio hasta ese momento. Por ejemplo, si se ham modificado, eliminado, cambios sin guardar o para saber si hay algo que no se ha subido o descargado del servidor (más detalles acerca de la nube en [Repositorio Remoto](docs/repositorio_remoto.md)).
 
-Si no se ha realizado ningún cambio, aparecerá que no hay nada a lo cuál hacer commit. 
+Si no se ha realizado ningún cambio, aparecerá que no hay nada a lo qué hacer `commit`.
 
-#### Que es un commit?
+### Que es un commit?
+Un commit es una acción en los sistemas de control de versiones que guarda los cambios hechos en un proyecto. Permite guardar el estado del código en un momento específico y facilita ver el historial de cambios. Cada commit tiene una breve descripción de lo que se modificó.
+
+Cuando se quiera guardar los cambios importantes de forma segura y que mas adelante se puedan deshacer o recuperar sin problemas de que se pierdan o se dañen, se debe agregar los archivos modificados o eliminados al área de preparación con el comando `add`, por ejemplo:
+
+```bash
+git add archivo1.py
+```
+Luego de eso se debe hacer el commit y agregar una breve descripción que informe acerca de los cambios realizados. Se puede hacer un solo commit con varios archivos o se puede hacer individualmente, algo útil por si se quiere revertir un commit. El commit se hace con el comando: 
+
+```bash
+git commit m- "Breve descripción de los cambios realizados"
+```
+En cualquier momento de los pasos es posible y recomendable ver el `status`. De esa forma se asegura que los cambios que se hayan hechos, queden efectivamente guardados.
+
+Si se quiere ver el historial de commits se usa el comando:
+
+
+```bash
+git log
+```
+
+Si se quiere ver la información de lo commits más compacta, es posible usando:
+
+```bash
+git log --oneline
+```
+![commit oneline](commit_oneline.png)
 
