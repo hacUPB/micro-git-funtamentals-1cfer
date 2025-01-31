@@ -71,5 +71,5 @@ Si se quiere ver la información de lo commits más compacta, es posible usando:
 ```bash
 git log --oneline
 ```
-![commit oneline](commit_oneline.png)
+![Commit_oneline](/images/commit_oneline.png)
 
